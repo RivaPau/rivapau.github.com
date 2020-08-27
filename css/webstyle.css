@@ -1,0 +1,199 @@
+.imginsta {
+    background-image: url(../assets/img/socialmedia/IG.svg);
+}
+.imgfb {
+    background-image: url(../assets/img/socialmedia/FB.svg);
+}
+.imgtt {
+    background-image: url(../assets/img/socialmedia/TT.svg);
+}
+.imgdeviant {
+    background-image: url(../assets/img/socialmedia/DA.svg);
+}
+.imgpixilart {
+    background-image: url(../assets/img/socialmedia/Pixil.svg);
+}
+.imgartstation {
+    background-image: url(../assets/img/socialmedia/ARTs.svg);
+}
+
+
+/*Desktop*/
+@media only screen and (min-width: 600px) {
+    .mobile {
+        display: none;
+    }
+    body {
+        height: 100vh;
+        background-image: url(../assets/img/floor.png);
+        background-repeat: repeat-x;
+        position: static;
+        background-position: bottom;
+    }
+    .ladder {
+        background-image: url(../assets/img/ladder.png);
+        position: fixed;
+        background-repeat: no-repeat;
+        bottom: 6vh;
+        left: 80vw;
+        height: 53vh;
+        width: 20vw;
+    }
+        
+    .deco1 {
+        background-image: url(../assets/img/Grafiti.png);
+        position: fixed;
+        background-repeat: no-repeat;
+        bottom: 2vh;
+        left: 19vw;
+        height: 11vh;
+        width: 14vw;
+    }
+    .plantbttm {
+        background-image: url(../assets/img/plantita.png);
+        position: fixed;
+        background-repeat: no-repeat;
+        bottom: 3vh;
+        left: 60vw;
+        height: 45vh;
+        width: 20vw;
+    }
+    .plantSup {
+        background-image: url(../assets/img/plantsup.png);
+        position: fixed;
+        background-repeat: no-repeat;
+        top: 0vh;
+        left: 38vw;
+        height: 150px;
+        width: 110px;
+    }
+    /*.speech-bubble {
+        background-image: url(../assets/img/socialmedia/globe-ig.png);
+        width: 280px;
+        height: 120px;
+        background-repeat: no-repeat;
+    }*/
+    .desktop {
+        display: block;
+    }
+    .sec1, .sec2 {
+        display: flex;
+    }
+    html {
+        background: url(../assets/img/Wall.png);
+        background-attachment: fixed;
+    }
+    .avatar {
+        background-image: url(../assets/img/sign.png);
+        background-repeat: no-repeat;   
+        background-size: cover;
+        position: fixed;
+        left: 42.5%;
+        width: 244px;
+        height: 338px;
+    }
+    .titaut {
+        width: 40%;
+        margin-top: 5vh;
+        text-align: center;
+        color: ivory;
+    }
+    .imgfb, .imgtt, .imgdeviant, .imgpixilart, .imgartstation, .imginsta {
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: fixed;
+        width: 6vw;
+        height: 6vw;
+    }
+    .imginsta {
+        top: 37vh;
+        left: 33vw;
+    }
+    .imgfb {
+        top: 50vh;
+        left: 42vw;
+    }
+    .imgpixilart {
+        top: 65vh;
+        left: 37vw;
+    }
+    .imgdeviant {
+        top: 37vh;
+        right: 32vw;
+    }
+    .imgtt {
+        top: 45vh;
+        right: 40vw;
+    }
+    .imgartstation {
+        top: 60vh;
+        right: 42vw;
+    }
+    .shadowbkg {
+        background-image: url(../assets/img/shadow.png);
+        position: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 0vh;
+        opacity: 0.6;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/*Mobile*/
+@media only screen and (max-width: 600px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: flex;
+        height: 100vh;
+        background-image: url(../assets/img/floor.png);
+        background-repeat: repeat-x;
+        position: static;
+        background-position: bottom;
+    }
+    .plant {
+        background-image: url(../assets/img/plant-sup.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: fixed;
+        top: 0;
+        width: 20vw;
+        height: 11vh;
+        left: 20vw;
+    }
+    .avatar {
+        background-image: url(../assets/img/sign.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50vw;
+        height: 70vw;
+    }
+    html {
+        background: url(../assets/img/Wall.png);
+        background-attachment: fixed;
+    }
+    .titaut h1{
+        display: none;
+    }
+    .mob_sec1, .mob_sec2 {
+        position: relative;
+        top: 37vh;
+        height: 310px;
+    }
+    .mob_sec1 {
+        margin-right: 12vw;
+    }
+    .mob_sec2 {
+        margin-left: 12vw;
+    }
+    .imginsta, .imgfb, .imgtt, .imgdeviant, .imgpixilart, .imgartstation {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 80px;
+        height: 80px;
+        margin: 5vw;
+    }
+}
