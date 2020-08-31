@@ -34,29 +34,30 @@
         background-image: url(../assets/img/ladder.png);
         position: fixed;
         background-repeat: no-repeat;
-        bottom: 6vh;
+        bottom: 40px;
         left: 80vw;
-        height: 53vh;
-        width: 20vw;
+        height: 406px;
+        width: 102px;
+
     }
-        
     .deco1 {
         background-image: url(../assets/img/Grafiti.png);
         position: fixed;
         background-repeat: no-repeat;
         bottom: 2vh;
         left: 19vw;
-        height: 11vh;
-        width: 14vw;
+        height: 82px;
+        width: 222px;
     }
     .plantbttm {
         background-image: url(../assets/img/plantinf.png);
         position: fixed;
         background-repeat: no-repeat;
-        bottom: 3vh;
+        bottom: 30px;
         left: 60vw;
-        height: 45vh;
-        width: 20vw;
+        height: 332px;
+        width: 232px;
+
     }
     .plantSup {
         background-image: url(../assets/img/plantsup.png);
@@ -64,8 +65,8 @@
         background-repeat: no-repeat;
         top: 0vh;
         left: 38vw;
-        height: 150px;
-        width: 110px;
+        height: 140px;
+        width: 152px;
     }
     /*.speech-bubble {
         background-image: url(../assets/img/socialmedia/globe-ig.png);
@@ -87,7 +88,7 @@
         background-image: url(../assets/img/sign.png);
         background-repeat: no-repeat;   
         background-size: cover;
-        position: fixed;
+        position: absolute;
         left: 42.5%;
         width: 244px;
         height: 338px;
@@ -102,8 +103,8 @@
         background-repeat: no-repeat;
         background-size: contain;
         position: fixed;
-        width: 6vw;
-        height: 6vw;
+        width: 110px;
+        height: 110px;
     }
     .imginsta {
         top: 37vh;
@@ -122,11 +123,11 @@
         right: 32vw;
     }
     .imgtt {
-        top: 40vh;
+        top: 49vh;
         right: 40vw;
     }
     .imgartstation {
-        top: 64vh;
+        top: 68vh;
         right: 42vw;
     }
     .shadowbkg {
